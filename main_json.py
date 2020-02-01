@@ -24,5 +24,3 @@ with open('news.json', encoding='utf-8') as f:
     res = pairs[:10]
     for i in res:
         print(i[0])
-
-print('-' * 30)
